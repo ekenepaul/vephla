@@ -1,0 +1,626 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+body {
+    background-size: 400px 500px;
+    overflow: none;
+}
+
+
+
+.header{
+    background-image: url(https://i.postimg.cc/K8PYw2Vk/Doordashheroboximage.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 170px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    left: 3%;
+    top: 15%;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 10px;
+}
+  
+.dropdown-content a:hover {
+    background-color: white;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+
+
+.button button{
+    position: absolute;
+    padding: 15px;
+    width: 100px;
+    border-radius: 20px;
+    display: inline-block;
+    border: none;
+    font-size: 15px;
+    background-color: none;
+    margin-top: 20px;
+}
+.logo{
+    position: absolute;
+    left: 600px;
+    margin-top: 20px;
+}
+.signin{
+    color: white;
+    background-color: red;
+    left: 1100px;
+}
+.signup{
+    background-color: white;
+    color: black;
+    left: 1210px;
+}
+.input{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.input input{
+    width: 70%;
+    border-radius: 25px;
+    padding: 15px;
+    border: none;
+    margin-top: 20px;
+}
+.input button{
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: large;
+    border: none;
+}
+
+
+
+
+
+
+.become-a-dasher {
+    position: relative;
+    margin-top: 1.5px;
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    height: 50vh;
+    /* width: auto; */
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #ffffff;
+}
+.partner {
+    position: absolute;
+    left: 600px;
+    padding-top: 90px;
+}
+
+.experience {
+    position: absolute;
+    left: 1100px; 
+    padding-top: 90px;
+}
+
+.dasher {
+    position: absolute;
+    left: 30px;
+    padding-top: 90px;
+    padding-left: 60px;
+}
+.become-a-dasher a {
+    text-decoration: none;
+    color: red;
+}
+
+
+.find-restaurants {
+    position: relative;
+    /* margin-top: 1.5px; */
+    /* display: flex; */
+    flex-direction: row;
+    /* align-items: center; */
+    height: 55vh;
+    /* width: auto; */
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #ffffff;
+}
+
+.restaurants {
+    position: absolute;
+    left: 130px;
+    padding-top: 200px;
+    padding-left: 60px;
+} 
+.restaurants button {
+    background-color: red;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.pizza {
+    position: absolute;
+    right: 200px;
+    padding-top: 90px;
+}
+
+
+
+
+
+.dash-pass {
+    position: relative;
+    /* margin-top: 1.5px; */
+    /* display: flex; */
+    flex-direction: row;
+    /* align-items: center; */
+    height: 65vh;
+    /* width: auto; */
+    padding-left: 5px;
+    padding-top: 95px;
+    padding-right: 5px;
+    background-color: #fdf1ee;
+}
+.dash-pass button{
+    background-color: red;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.pass {
+    position: absolute;
+    left: 100px;
+    padding-top: 10px;
+    padding-left: 60px;
+} 
+.writeup {
+    position: absolute;
+    right: 45px;
+    padding-top: 155px;
+}
+
+
+
+.get-grocery {
+    position: relative;
+    width: 100%;
+    background-image: url(https://i.postimg.cc/X7BCQXbn/shop-groceries.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    height: 68vh;
+    margin-top: 15px;
+}
+/* .get-grocery img {
+    width: 100%;
+} */
+.grocery {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.grocery button {
+    background-color: red;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.Convenience {
+    position: relative;
+    align-items: center;
+    height: 50vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.doorstep {
+    position: absolute;
+    left: 250px;
+    padding-top: 200px;
+    align-items: center;
+}
+.doorstep-img {
+    position: absolute;
+    right: 245px;
+    padding-top: 5px;
+}
+.doorstep button {
+    background-color: red;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+.to-do {
+    position: relative;
+    align-items: center;
+    height: 160vh;
+    /* align-items: center; */
+    background-color: #fdf1ee;
+}
+.to-dos {
+    position: absolute;
+    left: 200px;
+    padding-top: 30px;
+}
+.to-do button {
+    background-color: red;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.school {
+    position: absolute;
+    right: 200px;
+    /* bottom: 20px; */
+    padding-top: 30px;
+    align-items: center;
+}
+.restock {
+    position: absolute;
+    left: 180px;
+    bottom: 10px;
+    padding-bottom: 20px;
+}
+.restock h2 {
+    align-items: center;
+    text-align: center;
+}
+.restock p {
+    text-align: center;
+}
+.pets {
+    position: absolute;
+    right: 180px;
+    bottom: 20px;
+    padding-bottom: 20px;
+}
+.pets h2 {
+    text-align: center;
+}
+.pets p {
+    text-align: center;
+}
+.to-dos h2 {
+    align-items: center;
+    text-align: center;
+}
+.to-dos p {
+    align-items: center;
+    text-align: center;
+}
+.school h2 {
+    align-items: center;
+    text-align: center;
+}
+.school p {
+    align-items: center;
+    text-align: center;
+}
+.school button {
+    text-align: center;
+}
+
+
+.unclocking {
+    position: relative;
+    height: 70vh;
+    background-color: #ffffff;
+}
+.get-paid {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+.get-paid button {
+    background-color: red;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.paid {
+    position: absolute;
+    right: 300px;
+    top: 100px;
+}
+
+
+
+.grow {
+    position: relative;
+    background-color: #fdf1ee;
+    height: 60vh;
+}
+.your {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+}
+.business {
+    position: absolute;
+    top: 200px;
+    right: 300px;
+}
+.business button {
+    background-color: red;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+footer {
+    height: 1130px;
+    background-color: #000;
+    position: relative;
+}
+footer .first {
+    position: absolute;
+    top: 2%;
+    left: 9%;
+}
+footer .second {
+    position: absolute;
+    top: 4%;
+    left: 23%;
+}
+footer .third {
+    position: absolute;
+    top: 4%;
+    left: 38%;
+}
+footer .fourth {
+    position: absolute;
+    top: 2%;
+    left: 53%;
+}
+footer .fifth {
+    position: absolute;
+    top: 4%;
+    left: 73%;
+}
+footer .sixth {
+    position: absolute;
+    top: 32%;
+    left: 9%;
+}
+footer .seventh {
+    position: absolute;
+    top: 35%;
+    left: 31%;
+}
+footer .eight {
+    position: absolute;
+    top: 35%;
+    left: 53%;
+}
+footer .nineth {
+    position: absolute;
+    top: 35%;
+    left: 73%;
+}
+footer .tenth {
+    position: absolute;
+    top: 52%;
+    left: 9%;
+}
+footer .eleventh {
+    position: absolute;
+    top: 52%;
+    left: 26%;
+}
+footer .twelveth {
+    position: absolute;
+    top: 52%;
+    left: 43%;
+}
+footer h6 {
+    color: #fff;
+    font-size: 0.97rem;
+    text-transform: capitalize;
+    margin-bottom: 17px;
+}
+footer ul li {
+    list-style-type: none;
+    font-size: 0.9rem;
+    margin-bottom: 12px;
+}
+footer a {
+    color: rgb(190, 187, 187);
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+footer .footer-btn {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 52%;
+    right: 5%;
+}
+.footer-btn .btn1, .footer-btn .btn2 {
+    background-color: #3b3b3b;
+    position: relative;
+    width: 180px;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 0 0 12px;
+}
+.footer-btn .btn1 p {
+    font-size: 14px;
+}
+.footer-btn .btn1 h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.footer-btn .icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 35px;
+}
+.footer-btn .btn2 {
+    text-align: left;
+    padding-left: 45px;
+    margin-top: 15px;
+}
+.footer-btn .btn2 small {
+    font-size: 9px;
+    text-transform: uppercase;
+}
+.footer-btn .btn2 h2{
+    font-size: 21px;
+    font-weight: 500;
+}
+.footer-btn .btn2 .icon {
+    left: 7px;
+}
+.footer-btn a:hover {
+    text-decoration: none;
+}
+.footer-btn a:hover .btn1, .footer-btn a:hover .btn2 {
+    color: whitesmoke;
+    background-color: #494949;
+}
+footer .sub-div4 {
+    width: 90%;
+    height: 70px;
+    position: absolute;
+    bottom: 10px;
+    left: 8%;
+    display: flex;
+    align-items: center;
+}
+footer .sub-div4 img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -2px;
+    vertical-align: middle;
+}
+footer .sub-div4 a {
+    font-size: 13px;
+    margin-left: 10px;
+}
+footer .sub-div4 a {
+    color: rgb(190, 187, 187);
+}
+#select {
+    margin-left: 30px;
+    position: relative;
+}
+#select select{
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 25px;
+    padding: 7px 0 7px 30px;
+}
+#select .icon {
+    width: 30px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    text-align: center;
+}
+footer .sub-div4 .icon2 {
+    margin-left: 40px;
+}
+footer .sub-div4 .icon2 a {
+    font-size: 1.3rem;
+    transition-duration: 0.4s;
+}
+footer .sub-div4 .icon2 a:hover {
+    color: #fff;
+}

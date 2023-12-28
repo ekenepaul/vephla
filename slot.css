@@ -1,0 +1,363 @@
+* {
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif; 
+    box-sizing:border-box; 
+}
+body {
+    background-color: #f8f8f8;
+}
+
+#parent-find-a-store {
+    display: flex;
+    background-color: #bb2a26;
+    align-items: center;
+    height: 4em;
+    color: white;
+    font-size: 12px;
+    justify-content: space-between;
+}
+#find-a-store {
+    display: flex;
+    cursor: pointer;
+    padding-left: 0.5rem;
+    font-size: small;
+    font-weight: 100;
+}
+#myaccount {
+    display: flex;
+    font-size: small;
+    gap: 1.5rem;
+    word-spacing: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    padding-right: 10PX;
+}
+
+.divider {
+    height: 0.7px;
+    width: 100%;
+    color: rgb(251, 204, 204);
+}
+
+#slot-logo-div {
+    background-color: #bb2a26;
+    height: 6.9rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#slot-logo-hotline {
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 1.1rem;
+    gap:6rem
+}
+#slot-logo {
+    display: inline-flex;
+    width: 200px;
+    height: 78px;
+    align-items: center;
+    padding-left: 1.3rem;
+}
+#slot-logo #slot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+#hotline {
+    object-fit: contain;
+}
+#search {
+    display: flex;
+    position: right;
+}
+
+#home-aboutUs {
+    display: flex;
+    height: 4rem;
+    background-color: #bb2a26;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+#hambrger-shopby {
+    display: flex;
+    height: fit-content;
+    padding-left: 1rem;
+}
+#hambrger {
+    padding-left: 1rem;
+    align-items: center;
+}
+#shopby {
+    padding-left: 1.2rem;
+    align-items: center;
+    font-size: 12px;
+}
+#home {
+    display: flex;
+    width: 40rem;
+    text-transform: uppercase;
+    gap: 40px;
+    padding: 7rem;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#first-shift {
+    display: flex;
+    width: 97%;
+    height: 25rem;
+    justify-content: center;
+    margin: 1.5rem 1.5rem 0rem 1.5rem;
+}
+
+#first-container {
+    height: 100%;
+    width: 50%;
+}
+#c {
+    height: 100%;
+    width: 100%;
+}
+#second-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.image-four {
+    height: 50%;
+    width: 50%;
+}
+
+
+#free-delivery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 2.5rem;
+}
+#phones {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem 1.5rem 0rem 1.5rem;
+}
+#phones-left {
+    margin-left: 1.5rem;
+}
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    gap: 1rem;
+    color: #989898;
+}
+#links-red {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+
+#links-red a:hover {
+    color: red;
+}
+#red-color {
+    color: red;
+}
+
+
+#phones-display {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    max-width: 100vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer-section {
+    height: 18rem;
+    background-color: #232c35;
+    text-align: center;
+    align-items: center;
+}
+#newsletter-section {
+    color: white;
+    display: block;
+    padding-top: 4.5rem;
+}
+#red {
+    color: red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+#spaces {
+    width: 35rem;
+}
+
+#slot-company {
+    color: #717477;
+    padding-top: 3.5rem;
+    font-size: 15px;
+    padding-left: 0.5rem;
+    width: 100%;
+}
+
+#last-div {
+    background-color: #232c35;
+    height: 28rem;
+    display: flex;
+}
+#left {
+    padding-top: 2rem;
+    padding-left: 1rem;  
+}
+#logos {
+    height: 4rem;
+    width: 12rem;
+    padding-left: 0.5rem;
+}
+#logos-slot {
+    width: 100%;
+    height: 100%;
+}
+
+#free-hotline {
+    color: white;
+    padding-top: 3.5rem;
+}
+#spaces {
+    display: block;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+
+
+
+#copy {
+    background-color: #181d23;
+    height: 5.7rem;
+    color: whitesmoke;
+    display: flex;
+}
+#copy-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: 15px;
+}
+#reding {
+    color: #bb2a26;
+    cursor: pointer;
+}
+
+
+#information-follow-us {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: #232c35;
+    width: 78rem;
+}
+
+#follow-us {
+    padding: 5rem 1rem 1rem 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: #232c35;
+    color: #717477;
+    width: 100%;
+    height: 100%;
+}
+
+.white {
+    color: whitesmoke;
+}
+.red-colour {
+    color: red;
+}
+.information h3 {
+    cursor: grabbing;
+    font-size: 14px;
+}
+.information :hover {
+    color: red;
+}
+
+#blue {
+    color: #224ca2;
+}
+#coloured {
+    color: #50c2df;
+}
+#ig {
+    color: #bd40b0;
+}
+
+
+#dividerr {
+    height: 0.07rem;
+    background-color: #8b8c8d;
+}

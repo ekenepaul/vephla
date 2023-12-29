@@ -5,6 +5,7 @@
 }
 body {
     background-color: #f8f8f8;
+    font-family: rubik,sans-serif;
 }
 
 #parent-find-a-store {
@@ -137,6 +138,8 @@ body {
 }
 
 
+
+
 #free-delivery {
     display: flex;
     flex-direction: row;
@@ -172,53 +175,70 @@ a {
 }
 #red-color {
     color: red;
+    word-spacing: 2px;
 }
 
 
+
+
+#smartphone {
+    width: 30rem;
+    height: 30rem;
+}
+.flex-box {
+    display: flex;
+    margin-left: 1rem;
+}
 #phones-display {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     max-width: 100vw;
+    margin-bottom: 2rem;
+    cursor: pointer;
 }
 
+.phones-display img {
+    max-width: 100%;
+    margin: auto;
+}
 
+.phones-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1a69c1;
+    margin: 1.5rem 3rem 0rem 1.5rem;
+}
+#bold {
+    font-weight: 900;
+}
 
+.strike {
+    text-decoration: line-through;
+    color: #b6b6b6;
+}
+.text {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #1a69c1;
+}
+.black {
+    color: #181d23;
+}
 
+#image-scroll img {
+    max-width: 100%;
+    margin: auto;
+    padding: auto;
+    height: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#image-scroll {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    height: 20rem;
+}
 
 
 
@@ -241,9 +261,6 @@ a {
     color: red;
     cursor: pointer;
 }
-
-
-
 
 
 
@@ -336,7 +353,7 @@ a {
     color: whitesmoke;
 }
 .red-colour {
-    color: red;
+    color: #952726;
 }
 .information h3 {
     cursor: grabbing;
